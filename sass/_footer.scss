@@ -8,9 +8,11 @@
 	list-style: none;
 
 	display: grid;
-	grid-template-columns: repeat(auto-fit, minmax(10rem, 1fr));
+	grid-template-columns: repeat(auto-fit, minmax(20rem, 1fr));
 	grid-gap: 2rem;
 	align-items: center;
+	justify-items: center;
+	text-align: center;
 
 	&_link:link,
 	&_link:visited {
